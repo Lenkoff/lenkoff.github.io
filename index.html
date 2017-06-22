@@ -17,15 +17,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4203760951" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=473796790" id="pagesheet"/>
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="colelem" id="u94"><!-- custom html -->
-    <div id="widget_container33285" class="ucalc-div"></div><script> var widgetOptions33285 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"); a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=33285&t="+Math.floor(new Date()/3600000); document.getElementsByTagName("head")[0].appendChild(a) })();</script>
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="grpelem" id="u94"><!-- custom html -->
+    <div id="widget_container33285" class="ucalc-div"></div><script> var widgetOptions33285 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"); a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=33285&t="+Math.floor(new Date()/3600000); document.getElementsByTagName("head")[0].appendChild(a) })();</script>	
    </div>
-   <div class="verticalspacer" data-offset-top="927" data-content-above-spacer="927" data-content-below-spacer="62"></div>
+   <div class="verticalspacer" data-offset-top="928" data-content-above-spacer="928" data-content-below-spacer="61"></div>
+   <div class="browser_width grpelem" id="u117-bw">
+    <div id="u117"><!-- simple frame --></div>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -42,6 +45,8 @@ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museuti
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
