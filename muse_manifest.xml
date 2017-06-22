@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lenkoff.github.io" resolutions="1x" timestamp="1498144753043">
+<manifest alg="2" build="2017.0.3.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lenkoff.github.io" resolutions="1x" timestamp="1498145520460">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="473796790" ref="index"/>
+    <file name="index.css" crc="418704030" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="46400467" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="4273287925" ref="index"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
   </folder>
-  <file name="index.html" crc="292440504" seo="true" mt="1498144736228" redirect="true"/>
+  <file name="index.html" crc="3951936129" seo="true" mt="1498145516870" redirect="true"/>
 </manifest>
